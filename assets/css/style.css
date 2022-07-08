@@ -76,3 +76,44 @@ h2 {
     box-shadow: none;
 }
 
+#viewhighscores-btn {
+    background:rgb(0, 0, 0)
+}
+
+/*End Page CSS*/
+.end-form-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+}
+
+input {
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.3rem;
+    font-size: 1.5rem;
+    border: none;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(255, 255, 255);
+}
+
+input::placeholder {
+    color:rgb(40, 0, 70)
+}
+
+#username {
+    margin-bottom: 3rem;
+    width: 100%;
+    outline: none;
+}
+
+#end-text {
+    font-size: 2.4rem;
+    color: black;
+    text-align: center;
+}
+
+#saveScoreBtn {
+    border:none;
+}
